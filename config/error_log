@@ -1,0 +1,4 @@
+[10-Sep-2022 16:55:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lacebgtv/public_html/laravel/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lacebgtv/public_html/laravel/config/cache.php on line 18

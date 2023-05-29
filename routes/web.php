@@ -14,3 +14,4 @@ use App\Http\Controllers\HomeController;
 |
 */
 Route::get('/', [HomeController::class, 'home']);
+Route::get('/home2', [HomeController::class, 'home2']);

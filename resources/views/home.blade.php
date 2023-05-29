@@ -2,8 +2,6 @@
 
 
 @section('content')
-
-<div id="backgroud-animated">
     <div id="div-bubbles">
         <div class="bubbles">
             <span style="--i:11;"></span>
@@ -54,7 +52,6 @@
         </div>
 
     </div>
-</div>
 
 
 

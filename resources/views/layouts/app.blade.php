@@ -15,8 +15,9 @@
 
     <!-- Styles -->
     @yield('styles')
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet" type="text/css" >
 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
 
 </head>
 
@@ -36,11 +37,11 @@
         <!-- @include('layouts.footer') -->
     </main>
 
-    <!-- Scripts -->
-    <script>
-        // Variables de entorno js
-        var site = '{{ config('app.site') }}';
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
 
     @yield('scripts')
 
